@@ -9,7 +9,7 @@ valor3 = 0
 
 def exibe (num1, x, y, z):
 
-    if num1 == 1:
+    if num1 == 2:
         if x > y:
             if x > z:
                 valor1 = x
@@ -45,7 +45,7 @@ def exibe (num1, x, y, z):
                 valor2 = y
                 valor3 = x
             
-    if i == 2:
+    if i == 1:
         if x < y:
             if x < z:
                 valor1 = x
@@ -81,7 +81,7 @@ def exibe (num1, x, y, z):
                 valor2 = y
                 valor3 = x
 
-    else:
+    if i == 3:
         if x > y:
             if x > z:
                 valor1 = y
